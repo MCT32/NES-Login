@@ -1,0 +1,38 @@
+Modules list:
+-------------
+main.o:
+    CODE              Offs=000000  Size=000250  Align=00001  Fill=0000
+    RODATA            Offs=000000  Size=00003C  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=00000B  Align=00001  Fill=0000
+    HEADER            Offs=000000  Size=000010  Align=00001  Fill=0000
+    TILES             Offs=000000  Size=002000  Align=00001  Fill=0000
+    VECTORS           Offs=000000  Size=000006  Align=00001  Fill=0000
+    OAM               Offs=000000  Size=000100  Align=00001  Fill=0000
+
+
+Segment list:
+-------------
+Name                   Start     End    Size  Align
+----------------------------------------------------
+HEADER                000000  00000F  000010  00001
+TILES                 000000  001FFF  002000  00001
+ZEROPAGE              000000  00000A  00000B  00001
+OAM                   000200  0002FF  000100  00001
+CODE                  008000  00824F  000250  00001
+RODATA                008250  00828B  00003C  00001
+VECTORS               00FFFA  00FFFF  000006  00001
+
+
+Exports list by name:
+---------------------
+
+
+
+Exports list by value:
+----------------------
+
+
+
+Imports list:
+-------------
+

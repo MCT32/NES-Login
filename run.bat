@@ -1,0 +1,1 @@
+..\tools\Mesen.exe auth.nes
